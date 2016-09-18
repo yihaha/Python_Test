@@ -56,10 +56,14 @@ print('11.1//3.3=',11.1//3.3)
 
 #print (u'测试中文')
 
-
+'''
 #格式化
 print('%03d哈哈%02d编号,占比%.1f%%'%(3,1,5.6))
 print('%.2f'%5.6789999) #取小数点后2位,会四舍五入
 print('%s是个好人!'%'yibh')
 print('成绩相对去年提升了%.1f%%'%((1)/72*100))
+'''
 
+test_list=['yibh','Android','Python']
+print(test_list)
+print(len(test_list),test_list[0])
